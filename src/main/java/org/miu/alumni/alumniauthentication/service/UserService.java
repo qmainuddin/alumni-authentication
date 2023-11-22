@@ -4,4 +4,6 @@ import org.miu.alumni.alumniauthentication.entity.User;
 
 public interface UserService {
     User findUserByEmail(String email);
+
+    void deleteUserByEmail(String email);
 }
